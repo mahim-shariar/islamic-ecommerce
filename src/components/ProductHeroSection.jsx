@@ -286,6 +286,146 @@ const ProductHeroSection = () => {
             </motion.div>
           </div>
         </motion.div>
+
+        <section
+          id="description"
+          className="py-16 bg-gradient-to-br from-amber-100 via-amber-50 to-amber-100"
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-amber-900 mb-4">
+                Premium Ajwa Dates
+              </h2>
+              <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <p className="text-amber-800">
+                  Ajwa dates are a premium variety of dates grown exclusively in
+                  the holy city of Madinah, Saudi Arabia. These dates are known
+                  for their rich, dark color, soft texture, and distinctive
+                  flavor with hints of caramel and prune.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">
+                      Premium Quality, Hand-picked
+                    </span>
+                  </div>
+                  <div className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">Certified Halal</span>
+                  </div>
+                  <div className="flex items-center">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">
+                      Directly Imported from Madinah
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold text-amber-900 mb-4">
+                  Nutritional Benefits
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3 mt-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">
+                      Rich in essential minerals and vitamins
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3 mt-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">
+                      High in dietary fiber
+                    </span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg
+                      className="w-5 h-5 text-amber-600 mr-3 mt-0.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span className="text-amber-800">
+                      Natural source of energy
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
       {/* Add this to your Tailwind config */}
